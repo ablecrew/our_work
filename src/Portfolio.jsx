@@ -583,7 +583,7 @@ function Contact() {
   const statusMsg = status.replace(/^(success|error):/, "");
 
   const contactItems = [
-    { icon: <MailIcon />, label: "Email", value: "tonnyonyango794@gmail.com, teddy.dande4@gmail.com", href: "mailto:tonnyonyango794@gmail.com,teddy.dande4@gmail.com", color: "#00f5d4" },
+    { icon: <MailIcon />, label: "Email", value: "tonnyonyango79@gmail.com, teddy.dande4@gmail.com", href: "mailto:tonnyonyango794@gmail.com,teddy.dande4@gmail.com", color: "#00f5d4" },
     { icon: <PhoneIcon />, label: "Phone", value: "+254 707 528 980 / +254 792 837 632", href: "tel:+254707528980", color: "#7b2fff" },
     { icon: <GithubIcon />, label: "GitHub", value: "github.com/ablecrew", href: "https://github.com/ablecrew", color: "#00cfff" },
     { icon: <LocationIcon />, label: "Location", value: "Nairobi, Kenya", href: "https://maps.google.com/?q=Nairobi,Kenya", color: "#f72585" },
