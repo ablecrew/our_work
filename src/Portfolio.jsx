@@ -240,7 +240,7 @@ function Navbar({ active }) {
           </button>
         ))}
       </div>
-      <a href="mailto:tonnyonyango794@gmail.com,teddy.dande4@gmail.com?subject=Hire%20Enquiry%20-%20Crestline%20Technologies&body=Hi%20Crestline%2C%0A%0AI%20would%20like%20to%20hire%20you%20for..."
+      <a href="mailto:tonnyonyango79@gmail.com,teddy.dande4@gmail.com?subject=Hire%20Enquiry%20-%20Crestline%20Technologies&body=Hi%20Crestline%2C%0A%0AI%20would%20like%20to%20hire%20you%20for..."
         style={{
           fontFamily: "'Montserrat',sans-serif", fontWeight: 700, fontSize: "0.65rem",
           letterSpacing: "2px", textTransform: "uppercase", padding: "9px 20px",
@@ -566,7 +566,7 @@ function Contact() {
           from_name: form.name,
           from_email: form.email,
           message: form.message,
-          to_email: "tonnyonyango794@gmail.com, teddy.dande4@gmail.com",
+          to_email: "tonnyonyango79@gmail.com, teddy.dande4@gmail.com",
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "public_key"
       );
@@ -574,7 +574,7 @@ function Contact() {
       setForm({ name: "", email: "", message: "" });
     } catch (err) {
       console.error("EmailJS error:", err);
-      setStatus("error:Failed to send. Please email tonnyonyango794@gmail.com / teddy.dande4@gmail.com directly.");
+      setStatus("error:Failed to send. Please email tonnyonyango79@gmail.com / teddy.dande4@gmail.com directly.");
     }
     setLoading(false);
   };
@@ -710,7 +710,7 @@ function Footer() {
             <div style={{ display: "flex", gap: 12, marginTop: 20 }}>
               {[
                 { icon: <GithubIcon />, href: "https://github.com/ablecrew" },
-                { icon: <MailIcon />, href: "mailto:tonnyonyango794@gmail.com,teddy.dande4@gmail.com" },
+                { icon: <MailIcon />, href: "mailto:tonnyonyango79@gmail.com,teddy.dande4@gmail.com" },
                 { icon: <PhoneIcon />, href: "tel:+254707528980" },
               ].map(({ icon, href }, i) => (
                 <a key={i} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer"
@@ -740,7 +740,7 @@ function Footer() {
             <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: "0.6rem", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: 20 }}>Contact</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
               {[
-                ["tonnyonyango794@gmail.com, teddy.dande4@gmail.com", "mailto:tonnyonyango794@gmail.com,teddy.dande4@gmail.com"],
+                ["tonnyonyango79@gmail.com, teddy.dande4@gmail.com", "mailto:tonnyonyango79@gmail.com,teddy.dande4@gmail.com"],
                 ["+254 707 528 980 / +254 792 837 632", "tel:+254707528980"],
                 ["github.com/ablecrew", "https://github.com/ablecrew"],
                 ["Nairobi, Kenya", "https://maps.google.com/?q=Nairobi,Kenya"],
