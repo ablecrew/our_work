@@ -584,7 +584,7 @@ function Contact() {
 
   const contactItems = [
     { icon: <MailIcon />, label: "Email", value: "tonnyonyango79@gmail.com, teddy.dande4@gmail.com", href: "mailto:tonnyonyango79@gmail.com,teddy.dande4@gmail.com", color: "#00f5d4" },
-    { icon: <PhoneIcon />, label: "Phone", value: "+254 707 528 980 / +254 792 837 632", href: "tel:+254707528980", color: "#7b2fff" },
+    { icon: <PhoneIcon />, label: "Phone", value: "+254 707 528 980 / +254 792 837 632", href: "tel:+254707528980, +254 792 837 632", color: "#7b2fff" },
     { icon: <GithubIcon />, label: "GitHub", value: "github.com/ablecrew", href: "https://github.com/ablecrew", color: "#00cfff" },
     { icon: <LocationIcon />, label: "Location", value: "Nairobi, Kenya", href: "https://maps.google.com/?q=Nairobi,Kenya", color: "#f72585" },
   ];
@@ -711,7 +711,7 @@ function Footer() {
               {[
                 { icon: <GithubIcon />, href: "https://github.com/ablecrew" },
                 { icon: <MailIcon />, href: "mailto:tonnyonyango79@gmail.com,teddy.dande4@gmail.com" },
-                { icon: <PhoneIcon />, href: "tel:+254707528980" },
+                { icon: <PhoneIcon />, href: "tel:+254707528980, +254 792 837 632" },
               ].map(({ icon, href }, i) => (
                 <a key={i} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer"
                   style={{ width: 36, height: 36, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(255,255,255,0.1)", color: "rgba(255,255,255,0.4)", textDecoration: "none", transition: "all 0.3s" }}
@@ -741,7 +741,7 @@ function Footer() {
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
               {[
                 ["tonnyonyango79@gmail.com, teddy.dande4@gmail.com", "mailto:tonnyonyango79@gmail.com,teddy.dande4@gmail.com"],
-                ["+254 707 528 980 / +254 792 837 632", "tel:+254707528980"],
+                ["+254 707 528 980 / +254 792 837 632", "tel:+254707528980, +254 792 837 632"],
                 ["github.com/ablecrew", "https://github.com/ablecrew"],
                 ["Nairobi, Kenya", "https://maps.google.com/?q=Nairobi,Kenya"],
               ].map(([val, href]) => (
